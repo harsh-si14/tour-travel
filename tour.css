@@ -68,7 +68,7 @@
 }
 #home p{
     font-size: 1.5rem;
-    color:rgb(226, 176, 75);
+    color:orangered;
     text-align: center;
     font-family: cursive;
 }
@@ -76,7 +76,7 @@
     font-size: 3.8rem;
     padding: 12px;
     font-family: cursive;
-    color: chocolate;
+    color:whitesmoke;
     
     
 
@@ -84,7 +84,7 @@
 .h-secondary{
     font-size: 2rem;
     padding: 12px;
-    color:  rgb(214, 164, 70);
+    color:  brown;
 
 }
 

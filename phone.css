@@ -1,0 +1,44 @@
+#home{
+    height: 370px;
+    padding: 3px 68px;
+
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+
+}
+#navbar{
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+.h-primary {
+    font-size: 2rem;
+    padding: 12px;
+    font-family: cursive;
+    color: chocolate;
+    
+    
+
+}
+
+#services{
+    flex-direction: column;
+    
+
+}
+#services-box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+  
+}

@@ -68,11 +68,20 @@
 }
 #home p{
     font-size: 1.5rem;
-    color:orangered;
+    color:brown;
     text-align: center;
     font-family: cursive;
 }
 .h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: cursive;
+    color: whitesmoke;
+    
+    
+
+}
+.h1{
     font-size: 3.8rem;
     padding: 12px;
     font-family: cursive;
@@ -84,7 +93,7 @@
 .h-secondary{
     font-size: 2rem;
     padding: 12px;
-    color:  brown;
+    color:  rgb(214, 164, 70);
 
 }
 
@@ -102,7 +111,7 @@
 #services .box{
     border: 2px ;
     width: 300px;
-    height: 400px;
+    height: 350px;
     padding: 40px;
     margin: -50px 30px;
     border-radius: 20px;
@@ -124,35 +133,84 @@
     
 
 }
-
-#client-section{
-    position: relative;
+#packages{
+    justify-content: center;
+    align-items: center;
     
-
-}
-#client-section::before{
-    content: " ";
-    position: absolute;
-    /* top:0px;
-    left: 0px; */
-    background-color: rgb(104, 92, 92);
-    height: 100%;
+    display: flex;
+    background-color:black;
+    margin-top: 50px;
     width: 100%;
-    z-index: -1;
-    opacity: 0.3;
-
+    position: relative;
 }
-#clients{
+#packages .box1{
+    border: 2px ;
+    width: 800px;
+    height: 100vh;
+    padding: 40px;
+    margin: 50px 20px;
+    border: 5px solid #ffffff;
+   
+    justify-content:center;
+  
+   
+    opacity: 0.9;
+
+    
+    
+    
+}
+#packages .box2{
+    border: 2px ;
+    width: 300px;
+    height: 70vh;
+    padding: 40px;
+    margin:50px 20px;
+  
+    /* background-color: #e91e63; */
+    justify-content:center;
+    color:aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 0.9;
+    
+    
+    
+}
+
+.prev {
+    position: absolute;
+    top: 40%;
+    font-size: 80px;
+    /* font-weight: bold; */
+    color:whitesmoke;
+    left: 20px;
+   
+  }
+  .next {
+    position: absolute;
+    top: 40%;
+    font-size: 80px;
+   
+    color: white;
+    right: 20px;
+  }
+  .nav-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.client-item{
-    padding: 34px;
-}
-#clients img{
-   height: 124px;
-}
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+
+
+
 #contact{
     position: relative;
 }

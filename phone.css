@@ -12,11 +12,6 @@
 }
 #navbar{
     flex-direction: column;
-
-}
-#navbar::before{
-   height: 100%;
-    
 }
 html{
     scroll-behavior: smooth;
@@ -45,5 +40,17 @@ html{
     padding: 14px;
     margin: 2px 0px;
     margin-bottom: 20px;
+  
+}
+#packages{
+    flex-direction: column;
+    
+
+}
+#packages-box1{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+ 
   
 }

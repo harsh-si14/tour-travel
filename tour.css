@@ -590,3 +590,9 @@ a:link{
     }
     
 }
+@media screen and (max-width:330px) {
+    #about-box1 p{
+        overflow: hidden;
+    }
+    
+}

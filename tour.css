@@ -419,29 +419,7 @@ i{
 .center{
     text-align: center;
 }
-/* #more{
-    /* border: 2px solid red; */
-    /*font-size: 1.6rem;
-   /* background-color: white; */
-   /* width: 120px;
-    height: 50px;
-    border-radius: 50px;
-    margin-left: 110px;
-    margin-top: 10px;
-    transition: 0.5s;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 
-}
-#more:hover{
-    transform: scale(1);
-    box-shadow: 5px 5px 10px gray;
-    
-}
-a:link{
-    color:red;
-} */
  #h7{
     font-size: 2.6rem;
     font-weight: 200;

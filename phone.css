@@ -1,18 +1,20 @@
 #home{
     height: 370px;
     padding: 3px 68px;
+    width: 100%;
+
+}
+
+#home p{
+    font-size: 13px;
 
 }
 #home::before{
     height: 480px;
 }
-#home p{
-    font-size: 13px;
-
-}
-#navbar{
+/* #navbar{
     flex-direction: column;
-}
+} */
 html{
     scroll-behavior: smooth;
 }

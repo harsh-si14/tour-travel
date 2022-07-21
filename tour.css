@@ -471,6 +471,7 @@ i{
     content: ' ';
     animation: changetext 10s infinite linear;
     color: #00b894;
+    text-transform: uppercase;
 }
 @keyframes changetext{
     0%{content: "Mathura";}
@@ -626,4 +627,18 @@ i{
 span{
     color: #e9691e;
     text-transform: lowercase;
+}
+@media screen and (max-width:945px) {
+    #ex-us{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:490px) {
+    .bo2 img{
+        width: 90%;
+        margin: auto;
+
+    }
+    
 }

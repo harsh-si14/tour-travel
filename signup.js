@@ -19,7 +19,7 @@
         alert("Fields can not be blank");
       } 
       else {
-        alert("Data Send Successfully");
+        alert("Sign-up Successfully");
        
           
         

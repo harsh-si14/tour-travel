@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>Sign-in</title>
     <style>
        * {
@@ -13,7 +14,7 @@
   }
   body {
     /* background-color: rgb(103, 108, 179); */
-    background-image: url(https://images.pexels.com/photos/1020016/pexels-photo-1020016.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-image: url(https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -26,47 +27,50 @@
   }
   .container {
     width: 500px;
-    height: 450px;
-    /* background-color: white; */
+    height:max-content;
+    background-color: white;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform:capitalize;
- 
+
   
   }
 
-  .container .form {
-    margin: 30px;
-    margin-left: 70px;
-   
+  
+  form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
 
    input[type="password"]  , input[type="email"] {
-            width: 300px;
-            height: 50px;
-            margin-left: 20px;
-            border-radius: 5px;
+            width: 402px;
+            height: 58px;
+        
+            margin-bottom: 10px;
+           
            
         }
       
   
   .btn
   {
-      width: 100px;
+      width: 402px;
+      height: 58px;
       padding: 10px;
-      margin: 10px;
-      font-size: 16px;
-      background-color:rgb(74, 84, 175);
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      background-color: #0d6efd;
       color: white;
       border: none;
       border-radius: 5px;
-    
-      height: 40px;
+      
       cursor: pointer;
-    margin-left: 115px;
+   
+
   }
   textarea{
     height: 100px;
@@ -80,9 +84,61 @@
     margin-bottom: 50px;
     font-family:cursive;
   }
+
   
   .mt-5{
     text-align: center;
+  }
+  .fs-5{
+     font-size: 1rem;
+     margin-bottom: 10px;
+  }
+  .fore{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  }
+  .mb-2{
+    font-size: 1rem;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    height: 45px;
+  }
+  .my-4{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .py-2{
+    color: blue;
+  }
+  .py-3{
+    color: grey;
+  }
+  .py-1:hover{
+    background-color: #212529;
+    color: white;
+  }
+  .py-2:hover{
+
+    background-color:blue;
+    color: white;
+  }
+  .py-3:hover{
+    background-color:gray;
+    color: white;
   }
      
     </style>
@@ -93,16 +149,34 @@
 
         <div class="form">
           <form action="">
-            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <h1 class="h3 mb-3 fw-normal">Sign up here</h1>
            
-           <input type="email" id="emailBox" placeholder=" name@example.com" /> <br /><br />
-          <input type="password" id="pswBox" placeholder="   password"/>
-            <br /><br />
+           <input type="email" id="emailBox"  class="fore" placeholder=" name@example.com" /> 
+           <!-- <br /><br /> -->
+          <input type="password" id="pswBox" class="fore" placeholder="   password"/>
+            <!-- <br /><br /> -->
 
           
             <button class="w-100 btn " type="submit">Sign in</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2022-2023</p>
-             
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold ">Or use a third-party</h2>
+            <button class="w-100 py-1 mb-2 btn btn-outline-dark rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+              <i class="icon-twitter"></i> 
+              Sign up with Twitter
+            </button>
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+              <i class="icon-facebook"></i>
+              Sign up with Facebook
+            </button >
+            <button class="w-100 py-3 mb-2 btn btn-outline-secondary rounded-3" type="submit" >
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+              <i class="icon-github" ></i> 
+               Sign up with GitHub
+            </button>
+              
             </div>
           </form>
           <script type="module"   src="./signup.js"></script>

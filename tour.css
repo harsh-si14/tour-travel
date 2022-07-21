@@ -150,7 +150,7 @@
     width: 300px;
     height: 350px;
     padding: 40px;
-    margin: -50px 30px;
+    margin: -100px 30px;
     border-radius: 20px;
     background-color: whitesmoke;
     justify-content:center;
@@ -179,7 +179,7 @@
     align-items: center;
     
     display: flex;
-    background-color:rgba(0, 0, 0, 0.829);
+    background-color: darkslategray;
     margin-top: 50px;
     width: 100%;
     position: relative;
@@ -621,4 +621,8 @@ i{
     color: white;
     margin-top: 50px ;
   
+}
+span{
+    color: #e9691e;
+    text-transform: lowercase;
 }

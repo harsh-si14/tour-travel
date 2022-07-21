@@ -1,0 +1,221 @@
+<title>Heritage</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: rgba(255, 230, 0, 0.245);
+        }
+    h1{
+      
+        margin:20px;
+        color: #3b404b;
+        font-size: 1.6rem;
+        line-height: 25px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 10px solid  #ff6612;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1 span{
+        font-size: 2.8rem;
+        color: #ff6612;
+    }
+    #banner{
+        width: 100%;
+        min-height: 400px;
+        /* background-color: rgb(255, 196, 0); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    #box1{
+        width: 60%;
+    }
+    #box1 h2{
+        font-size: 3.4rem;
+        font-family:cursive;
+    }
+    #box1 p{
+        font-size: 1.2rem;
+        font-family:'Times New Roman', Times, serif;
+    }
+    #box2{
+        width: 40%;
+    
+    }
+    .img{
+        height: 400px;
+        width: 400px;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        animation: animi 6s 1s infinite;
+    }
+    @keyframes animi{
+        0%{
+            background: url(https://media.gettyimages.com/photos/qutub-minar-delhi-india-picture-id165204592?k=20&m=165204592&s=612x612&w=0&h=9i-2oe4MPEC1xIE4s87fvYCgvy3LTu_g68QE6cRATWk=);
+            }
+        30%{
+            background: url(https://media.gettyimages.com/photos/amber-fort-jaipur-india-picture-id154894958?k=20&m=154894958&s=612x612&w=0&h=MNiD4fJ7cdCReTvrNz5K0GqArTpAnRxxTYT59sbA8L0=);
+        }
+        60%{
+            background: url(https://media.gettyimages.com/photos/humayuns-tomb-delhi-india-cngltrv1109-picture-id489343716?k=20&m=489343716&s=612x612&w=0&h=5mcr9OyteOs9LwMxo0yKr0FAi7ITycSmP_AAkUvSKjo=);
+        }
+        100%{
+            background: url(https://images.pexels.com/photos/7437037/pexels-photo-7437037.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+    }
+    #trt{
+        
+        width: 100%;
+        min-height: 400px;
+       
+    }
+    #trt #h2{
+        font-size: 2.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #trt #box3{
+        display: flex;
+        justify-content: center;
+       align-items: center;
+    }
+    .box{
+        margin: 10px;
+        height: 300px;
+    }
+    .box .h-secondary{
+        font-size: 1.5rem;
+        text-align: center;
+    } 
+    .box #para{
+        font-size: 1.8rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    .about{
+        margin-top: 60px;
+        background-color: rgba(255, 230, 0, 0.267);
+    }
+    .about .h-1{
+        font-size: 2.3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 10px;
+    }
+    .about #po{
+        font-size: 1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+   
+
+
+    @media screen and (max-width:1268px) {
+        #trt #box3{
+            flex-direction: column;
+        }
+        .box{
+            margin-top: 60px;
+        }
+       
+    }
+    @media screen and (max-width:1122px) {
+        #banner{
+            flex-direction: column;
+        }
+        
+    }
+    @media screen and (max-width:890px) {
+       .img{
+        width: 100%;
+        margin: auto;
+       }
+        
+    }
+    @media screen and (max-width:825px) {
+        h1 span{
+            margin: 10px;
+        }
+     
+        
+    }
+    </style>
+</head>
+<body>
+    <h1> A Complete Guide to Heritage tours in<span>India</span></h1>
+    <section id="banner">
+        <div id="box1">
+            <h2>Heritage Tour pakages</h2>
+            <p>With a rich and diverse history and culture, India is a perfect destination for heritage tours. There are a
+                 plethora of heritage sites in India including one of the seven wonders of the world, Taj Mahal that people
+                 come to witness from all over the world. With our best heritage tour packages, explore the top historical 
+                heritage sites and cultural heritage in India to learn more about the country. We offer the best of our 
+                services in the heritage tours by arranging expert tour guides, transportation, and accommodations and 
+                ensuring a memorable experience.</p>
+        </div>
+        <div id="box2">
+            <div class="img">
+
+            </div>
+        </div>
+    </section>
+    <section id="trt">
+        <h2 id="h2">Best Selling Heritage Tour Pakages</h2>
+        <div id="box3">
+            <div class="box">
+                <img src="https://www.tourmyindia.com/packages-tour-india/image/6nights-7days-golden.webp"height="250px" width="300px" alt="">
+                <h2 class="h-secondary">6Nights-7Days</h2>
+                <p id="para" > Golden Triangle Tour</p>
+                
+            </div>
+            <div class="box">
+                <img src="https://www.tourmyindia.com/packages-tour-india/image/forts-and-palaces-of-rajasthan.webp" height="250px" width="300px"  alt="">
+                <h2 class="h-secondary">13Nights-14Days</h2>
+                <p id="para"> Fort of Rajasthan</p>
+                
+            </div>
+            <div class="box">
+                <img src="https://www.tourmyindia.com/packages-tour-india/image/historical-madhya-pradesh-tour.webp"height="250px" width="300px"  alt="">
+                <h2 class="h-secondary">6Nights-7Days</h2>
+                <p id="para">Historical MP</p>
+                
+            </div>
+            <div class="box">
+                <img src="https://www.tourmyindia.com/packages-tour-india/image/best-of-gujarat-heritage-tour.webp" height="250px" width="300px"  alt="">
+                
+                <h2 class="h-secondary">9Nights-10Days</h2>
+                <p id="para">   Best of Gujarat</p>
+                
+            </div>
+            
+           
+
+
+        </div>
+
+    </section>
+    <section id="yur">
+        <div class="about">
+            <h2 class="h-1">About Heritage in India</h2>
+            <p id="po">
+                From its northern corners to its southern tip, India is blessed with heritage sites reflecting the country’s glorious history and culture. With our tailormade heritage tour packages, we offer a chance to go deeper and witness some of the gems of the country.
+
+                Our heritage tour packages are designed keeping your interest in mind, thus, there is a lot for you on offer. The heritage rich state of Tamil Nadu alone unfolds innumerable sites and experiences for you. Right from its Meenakshi Temple in Madurai to the Group of Monuments in Mahabalipuram, Tamil Nadu offers many heritage places to visit to the tourists. In Rajasthan, one of the top tourist attractions in India, there is no dearth of forts & palaces like Hawa Mahal, Jaisalmer Fort, City Palace, Mehrangarh Fort, and Amer Fort that reflect the rich Rajputana style of architecture and rich history of the state.
+                
+                Explore with our tailormade heritage holiday packages the rock cut temples of Ajanta & Ellora; the rock shelters of Bhimbetka and Buddhist Stupas in Sanchi, and Khajuraho Groups of Temples in Madhya Pradesh; the Sun Temple in Odisha; Group of Monuments in Hampi and Mysore Palace, Bengaluru, Mahabodhi Temple Complex in Gaya, Bihar; monuments from different eras in Delhi.
+                
+                Visit the ancient Kashi Vishwanath Temple in Varanasi and Bara Imambara in Lucknow, Uttar Pradesh; Key Monastery in Spiti Valley, Himachal Pradesh; Charminar in Hyderabad in Telangana; Golden Temple in Amritsar, Punjab; Churches and Convents of Goa and other heritage sites of your choice with our best tour packages.
+                
+                We organize and handcraft the finest heritage tour packages and travel itineraries ensuring you get the best travel experience that is comfortable and full of insights. Tour My India promises the best accommodation arrangements, pick-ups & drops, transportation, meals, and round-the-clock assistance for your hassle-free heritage tour in India.</p>
+                
+    </section>
+</body>
+</html>
+</head>
+<body>
+    
+</body>
+</html>

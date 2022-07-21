@@ -179,10 +179,11 @@
     align-items: center;
     
     display: flex;
-    background-color: darkslategray;
+    background-color: cadetblue;
     margin-top: 50px;
     width: 100%;
     position: relative;
+    opacity: 0.7;
 }
 .packages .box1{
 
